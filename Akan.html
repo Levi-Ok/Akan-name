@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Names</title>
+    <link rel="stylesheet" href="Akan.css">
+</head>
+<body>
+
+    <h1>Akan Name Generator</h1>
+
+    <p>
+        Enter your birthday & gender to discover your Akan name 
+        (these are traditional Ghanaian names based on the day you're born)
+    </p>
+
+    <form action=""  id="akan-form">
+
+        <label for="birthdate"> Birthdate: </label>
+        <input type="date" id="birthdate" name="birthdate" required>
+
+        <label for="gender"> Gender: </label>
+        <select id="gender" name="gender" required>
+            <option value=""> Select </option>
+            <option value="male"> Male </option>
+            <option value="female"> Female </option>
+        </select>
+
+        <button type="submit"> Get Akan Name </button>
+    </form>
+    <section id="result"></section>
+    <script src="Akan.js"></script>
+</body>
+</html>
